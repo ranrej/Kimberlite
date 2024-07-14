@@ -18,21 +18,16 @@ struct Component<Content: View>: View {
     }
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text("Explore new worlds")
+        VStack() {
+            Text("")
                 .font(.headline)
-            Text("Read more..")
-                .font(.caption)
         }
         .foregroundStyle(.white)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-        .padding(20)
         .background {
             content()
         }
-        .frame(height: 142)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
-        .padding(20)
+        .frame(height: 1000)
     }
     
 }
