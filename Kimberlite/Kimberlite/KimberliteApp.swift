@@ -11,7 +11,9 @@ import SwiftUI
 struct KimberliteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            DashboardView()
+//            DashboardBackgroundView()
+            DashboardBackgroundView(url: Bundle.main.url(forResource: "MorningSunny", withExtension: "mp4")!)
         }
     }
 }

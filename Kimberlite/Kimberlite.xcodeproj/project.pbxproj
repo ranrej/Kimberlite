@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A021532C44263800F6ED79 /* MorningSunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 65A021522C44263800F6ED79 /* MorningSunny.mp4 */; };
 		65AFEC882C43FEB200578F34 /* KimberliteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFEC872C43FEB200578F34 /* KimberliteApp.swift */; };
-		65AFEC8A2C43FEB200578F34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFEC892C43FEB200578F34 /* ContentView.swift */; };
 		65AFEC8C2C43FEB700578F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AFEC8B2C43FEB700578F34 /* Assets.xcassets */; };
 		65AFEC8F2C43FEB700578F34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AFEC8E2C43FEB700578F34 /* Preview Assets.xcassets */; };
 		65AFEC992C43FEB800578F34 /* KimberliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFEC982C43FEB800578F34 /* KimberliteTests.swift */; };
 		65AFECA32C43FEB800578F34 /* KimberliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFECA22C43FEB800578F34 /* KimberliteUITests.swift */; };
 		65AFECA52C43FEB800578F34 /* KimberliteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFECA42C43FEB800578F34 /* KimberliteUITestsLaunchTests.swift */; };
+		65AFECB22C440CF000578F34 /* DashboardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFECB12C440CF000578F34 /* DashboardBackgroundView.swift */; };
+		65AFECB42C440D0C00578F34 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFECB32C440D0C00578F34 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65A021522C44263800F6ED79 /* MorningSunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MorningSunny.mp4; sourceTree = "<group>"; };
 		65AFEC842C43FEB200578F34 /* Kimberlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kimberlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AFEC872C43FEB200578F34 /* KimberliteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimberliteApp.swift; sourceTree = "<group>"; };
-		65AFEC892C43FEB200578F34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65AFEC8B2C43FEB700578F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65AFEC8E2C43FEB700578F34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		65AFEC942C43FEB800578F34 /* KimberliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimberliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		65AFEC9E2C43FEB800578F34 /* KimberliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimberliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AFECA22C43FEB800578F34 /* KimberliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimberliteUITests.swift; sourceTree = "<group>"; };
 		65AFECA42C43FEB800578F34 /* KimberliteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimberliteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65AFECB12C440CF000578F34 /* DashboardBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBackgroundView.swift; sourceTree = "<group>"; };
+		65AFECB32C440D0C00578F34 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				65AFEC872C43FEB200578F34 /* KimberliteApp.swift */,
-				65AFEC892C43FEB200578F34 /* ContentView.swift */,
+				65AFECB32C440D0C00578F34 /* DashboardView.swift */,
+				65AFECB12C440CF000578F34 /* DashboardBackgroundView.swift */,
+				65A021522C44263800F6ED79 /* MorningSunny.mp4 */,
 				65AFEC8B2C43FEB700578F34 /* Assets.xcassets */,
 				65AFEC8D2C43FEB700578F34 /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A021532C44263800F6ED79 /* MorningSunny.mp4 in Resources */,
 				65AFEC8F2C43FEB700578F34 /* Preview Assets.xcassets in Resources */,
 				65AFEC8C2C43FEB700578F34 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65AFEC8A2C43FEB200578F34 /* ContentView.swift in Sources */,
+				65AFECB42C440D0C00578F34 /* DashboardView.swift in Sources */,
 				65AFEC882C43FEB200578F34 /* KimberliteApp.swift in Sources */,
+				65AFECB22C440CF000578F34 /* DashboardBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +433,13 @@
 				DEVELOPMENT_TEAM = A75Y5Y464F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +464,13 @@
 				DEVELOPMENT_TEAM = A75Y5Y464F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
